@@ -30,6 +30,9 @@ body {
   color: var(--primary-paragraph);
   font-family: var(--inter);
   overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 p {
     color: var(--primary-paragraph);
